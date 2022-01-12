@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cartoon Cat Full Rig
+* source:	https://sketchfab.com/3d-models/cartoon-cat-full-rig-0104e8a369e14eb59f4ac91dbf596c0d
+* author:	Mr. Grigins (https://sketchfab.com/mrgrigins)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cartoon Cat Full Rig" (https://sketchfab.com/3d-models/cartoon-cat-full-rig-0104e8a369e14eb59f4ac91dbf596c0d) by Mr. Grigins (https://sketchfab.com/mrgrigins) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
