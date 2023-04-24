@@ -1,0 +1,57 @@
+<ar-viewer mode="ar">
+  <ar-view default-scale="0.5" min-scale="0.3" max-scale="3">
+    <ar-container position="0 0.5 0">
+      <ar-container position="0 2 0">
+        <ar-light light-type="point" position="5 5 0" intensity="5"></ar-light>
+        <ar-light light-type="point" position="-5 5 0" intensity="5"></ar-light>
+        <ar-light light-type="point" position="5 -5 0" intensity="5"></ar-light>
+        <ar-light light-type="point" position="-5 -5 0" intensity="5"></ar-light>
+
+        <ar-model  id="arota-01" src="./models/heart/aorta.glb"></ar-model>
+        <ar-model id="arteries-01" src="./models/heart/arteries.glb"></ar-model>
+        <ar-model id="avvalves-01" src="./models/heart/avvalves.glb"></ar-model>
+        <ar-model id="basis-01" src="./models/heart/basis.glb"></ar-model>
+        <ar-model id="heartear-01" src="./models/heart/heartear.glb"></ar-model>
+        <ar-model id="ligament-01" src="./models/heart/ligament.glb"></ar-model>
+        <ar-model id="pulmonary-trunk-01" src="./models/heart/pulmonary-trunk.glb"></ar-model>
+        <ar-model id="valves-01" src="./models/heart/valves.glb"></ar-model>
+        <ar-model id="viens-01" src="./models/heart/viens.glb"></ar-model>
+      </ar-container>
+    </ar-container>
+
+    <ui-switch label="valves" action="visible" target="valves-01"></ui-switch>
+    <ui-switch label="veins" action="visible" target="viens-01"></ui-switch>
+    <ui-switch label="arota" action="visible" target="arota-01"></ui-switch>
+    <ui-switch label="arteries" action="visible" target="arteries-01"></ui-switch>
+    <ui-switch label="av valves" action="visible" target="avvalves-01"></ui-switch>
+    <ui-switch label="basis" action="visible" target="basis-01"></ui-switch>
+    <ui-switch label="heart ear" action="visible" target="heartear-01"></ui-switch>
+    <ui-switch label="ligament" action="visible" target="ligament-01"></ui-switch>
+    <ui-switch label="pulmonary trunk" action="visible" target="pulmonary-trunk-01"></ui-switch>
+  </ar-view>
+
+  <ar-view default-scale="0.5" min-scale="0.3" max-scale="3">
+
+    <ar-container position="0 0.5 0">
+      <ar-container position="0 0 0">
+        <ar-light light-type="point" position="5 5 0" intensity="2"></ar-light>
+        <ar-light light-type="point" position="-5 5 0" intensity="2"></ar-light>
+        <ar-light light-type="point" position="5 -5 0" intensity="2"></ar-light>
+        <ar-light light-type="point" position="-5 -5 0" intensity="2"></ar-light>
+    
+        <ar-model rotation="-90 0 0" scale="0.3 0.3 0.3" id="body-01" src="./models/body/body-01.glb"></ar-model>
+        <ar-model rotation="-90 0 0" scale="0.3 0.3 0.3" id="body-02" src="./models/body/body-02.glb"></ar-model>
+        <ar-model rotation="-90 0 0" scale="0.3 0.3 0.3" id="body-03" src="./models/body/body-03.glb"></ar-model>
+        <ar-model rotation="-90 0 0" scale="0.3 0.3 0.3" id="body-04" src="./models/body/body-04.glb"></ar-model>
+        <ar-model rotation="-90 0 0" scale="0.3 0.3 0.3" id="body-05" src="./models/body/body-05.glb"></ar-model>
+      </ar-container>
+    </ar-container>
+
+    <ui-switch label="body 01" action="visible" target="body-01"></ui-switch>
+    <ui-switch label="body 02" action="visible" target="body-02"></ui-switch>
+    <ui-switch label="body 03" action="visible" target="body-03"></ui-switch>
+    <ui-switch label="body 04" action="visible" target="body-04"></ui-switch>
+    <ui-switch label="body 05" action="visible" target="body-05"></ui-switch>
+  </ar-view>
+
+</ar-viewer>
